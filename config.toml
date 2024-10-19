@@ -10,7 +10,7 @@ cli-source = "revanced/revanced-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 
 [Instagram]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram" # fallback
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
 apkmirror-dpi = "360-480dpi"
 arch = "arm64-v8a"
 
