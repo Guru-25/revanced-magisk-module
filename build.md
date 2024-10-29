@@ -1,5 +1,5 @@
 YouTube: 19.34.42  
-Instagram: 353.2.0.49.90  
+Instagram: 356.0.0.0.66                     
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
