@@ -1,4 +1,5 @@
 GooglePhotos: 7.26.0.749619146  
+Instagram: 377.1.0.48.63  
 Spotify: 9.0.36.683  
 YouTube: 20.12.46  
 
