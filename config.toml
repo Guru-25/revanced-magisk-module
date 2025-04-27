@@ -85,7 +85,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [Instagram]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram" # fallback
 apkmirror-dpi = "360-480dpi"
 arch = "arm64-v8a"
