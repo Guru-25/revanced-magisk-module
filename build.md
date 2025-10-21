@@ -1,4 +1,5 @@
-GooglePhotos: 7.49.0.816946145  
+GooglePhotos: 7.50.0.818774663  
+Spotify: 9.0.92.241  
 YouTube: 20.14.43  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube
