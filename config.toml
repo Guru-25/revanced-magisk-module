@@ -8,7 +8,7 @@ cli-source = "revanced/revanced-cli"
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
+enabled = true
 build-mode = "apk"
 excluded-patches = ""
 included-patches = ""
@@ -26,7 +26,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [GooglePhotos]
-enabled = false
+enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
 version = "auto"
@@ -35,7 +35,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Spotify]
-enabled = false
+enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 arch = "arm64-v8a"
