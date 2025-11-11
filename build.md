@@ -1,5 +1,4 @@
 GooglePhotos: 7.53.0.827222094  
-PrimeVideo: 3.0.412.2947  
 Spotify: 9.0.98.261  
 YouTube: 20.14.43  
 
