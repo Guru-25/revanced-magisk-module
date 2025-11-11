@@ -1,4 +1,6 @@
+GooglePhotos: 7.53.0.827222094  
 Instagram: 405.1.0.57.77  
+YouTube: 20.14.43  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube
   
