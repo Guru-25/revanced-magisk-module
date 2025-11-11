@@ -90,7 +90,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-s
 [Instagram]
 enabled = true
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-version = "405.0.0.52.77"
+arch = "arm64-v8a"
 
 [PrimeVideo]
 enabled = false
