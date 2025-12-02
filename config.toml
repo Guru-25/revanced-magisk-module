@@ -9,7 +9,7 @@ cli-source = "revanced/revanced-cli"
 
 [YouTube]
 enabled = true
-build-mode = "both"
+build-mode = "apk"
 excluded-patches = ""
 included-patches = ""
 version = "auto"
