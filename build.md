@@ -1,8 +1,8 @@
-GooglePhotos: 7.64.0.870575488  
-YouTube: 20.14.43  
+GooglePhotos: 7.67.0.882706237  
+YouTube: 20.40.45  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube
   
-CLI: ReVanced/revanced-cli-5.0.1-all.jar  
-Patches: ReVanced/patches-5.50.2.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)  
+CLI: ReVanced/revanced-cli-6.0.0-all.jar  
+Patches: ReVanced/patches-6.0.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v6.0.0)  
