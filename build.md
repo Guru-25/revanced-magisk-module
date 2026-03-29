@@ -1,8 +1,7 @@
-GooglePhotos: 7.68.0.884121604  
-YouTube: 20.40.45  
+YouTube-Morphe: 20.45.36  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube
   
-CLI: ReVanced/revanced-cli-6.0.0-all.jar  
-Patches: ReVanced/patches-6.1.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v6.1.0)  
+CLI: MorpheApp/morphe-cli-1.6.3-all.jar  
+Patches: MorpheApp/patches-1.22.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)  
