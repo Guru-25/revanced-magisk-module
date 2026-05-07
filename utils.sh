@@ -348,15 +348,15 @@ apkmirror_search() {
 	local resp="$1" dpi="$2" arch="$3" apk_bundle="$4"
 	local dlurl="" node app_table emptyCheck
 
-		local apparch=('universal' 'noarch' 'arm64-v8a + armeabi-v7a')
-		if [ "$arch" != all ]; then
-			apparch+=("$arch")
-		fi
+	local apparch=('universal' 'noarch' 'arm64-v8a + armeabi-v7a')
+	if [ "$arch" != all ]; then
+		apparch+=("$arch")
+	fi
 
-		local appdpi=("nodpi" "anydpi")
-		if [ "$dpi" ]; then
-		    appdpi+=($dpi)
-		fi
+	local appdpi=("nodpi" "anydpi")
+	if [ "$dpi" ]; then
+	    appdpi+=($dpi)
+	fi
 
 	for ((n = 1; n < 40; n++)); do
 		node=$($HTMLQ "div.table-row.headerFont:nth-last-child($n)" -r "span:nth-child(n+3)" <<<"$resp")
@@ -712,10 +712,7 @@ build_rv() {
 			elif [ "$build_mode" = module ]; then
 				patcher_args+=("-d \"${microg_patch}\"")
 			fi
-		firm -rf ./${TEMP_DIR}/*tmp.* ./${TEMP_DIR}/*/*tmp.* ./${TEMP_DIR}/*-temporary-files ./*-temporary-files
-			trap - SIGTERM SIGINT EXIT
-			kill -- -$$ 2>/dev/null
-			exit 1
+		fi
 
 		local stock_apk_to_patch="${stock_apk}.stripped.apk"
 		cp -f "$stock_apk" "$stock_apk_to_patch"
