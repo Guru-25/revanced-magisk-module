@@ -6,13 +6,6 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-enabled = false
-build-mode = "apk"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [YouTube-Morphe]
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
@@ -20,16 +13,8 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music]
-enabled = false
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+enable-update-checks = true
 
 [Music-Morphe]
 enabled = false
@@ -40,8 +25,8 @@ rv-brand = "Morphe"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+enable-update-checks = true
 
 [Reddit-Morphe]
 enabled = false
@@ -52,29 +37,42 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
+
+[GooglePhotos]
+build-mode = "apk"
+patches-source = "RookieEnough/De-Vanced"
+rv-brand = "DeVanced"
+cli-source = "MorpheApp/morphe-cli"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+enable-update-checks = true
 
 [Twitter]
 enabled = false
-patches-source = "crimera/piko"
+patches-source = "crimera/piko-newx"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
-version = "11.81.0-release.0"
-include-stock = "split"
+version = "latest"
+version = "12.22.0-prod.01"
+included-patches = "'NewX: Restore Twitter branding'"
+enable-update-checks = true
 
-[GooglePhotos]
-enabled = true
-build-mode = "apk"
-arch = "arm64-v8a"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+[Music]
+enabled = false
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[YouTube]
+enabled = false
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Twitch]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
